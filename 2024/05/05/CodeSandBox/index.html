@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="时沙">
+    
+    <title>
+        
+            Codesandbox |
+        
+        Hexo
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/qq972on/Imagesbad/img/fv.png">
+    
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/font/css/fontawesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/font/css/regular.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/font/css/solid.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/font/css/brands.min.css">
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"Hexo","author":"时沙","avatar":"https://cdn.jsdelivr.net/gh/qq972on/Imagesbad/img/%E5%A4%B4%E5%83%8F.jpg","logo":"https://cdn.jsdelivr.net/gh/qq972on/Imagesbad/img/logo2.png","favicon":"https://cdn.jsdelivr.net/gh/qq972on/Imagesbad/img/fv.png"},"menu":{"home":"/","archives":"/archives","archive":"/archives","标签":"/tags","分类":"/categories","友情链接":"/links","about":"/about"},"first_screen":{"enable":true,"background_img":"https://cdn.jsdelivr.net/gh/qq972on/Imagesbad/img/2233.gif","background_img_dark":"https://cdn.jsdelivr.net/gh/qq972on/Imagesbad/img/2233.gif","description":"Keep writing and Keep loving.","hitokoto":true},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"updated"},"post":{"author_badge":{"enable":true,"level_badge":true,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"toc":{"enable":false,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":false,"preload":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.21"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":true,"provider":"jsdelivr"},"pjax":{"enable":false},"footer":{"since":2020,"word_count":false,"icp":{"enable":false,"record_code":null,"url":"https://beian.miit.gov.cn"},"site_deploy":{"enable":false,"provider":"github","url":null},"shields_style":{"enable":false,"custom":[{"link_url":null,"img_url":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.1.1"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
+  </script>
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="https://cdn.jsdelivr.net/gh/qq972on/Imagesbad/img/logo2.png">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               Hexo
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                
+                                HOME
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                
+                                ARCHIVE
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                
+                                标签
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                
+                                分类
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/links"
+                            >
+                                
+                                友情链接
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                
+                                ABOUT
+                            </a>
+                        </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/"
+                    >HOME</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives"
+                    >ARCHIVES</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives"
+                    >ARCHIVE</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags"
+                    >标签</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories"
+                    >分类</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/links"
+                    >友情链接</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about"
+                    >ABOUT</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        Codesandbox
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="https://cdn.jsdelivr.net/gh/qq972on/Imagesbad/img/%E5%A4%B4%E5%83%8F.jpg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">时沙</span>
+                                
+                                    <span class="author-badge">Lv1</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2024-05-05 10:18:08</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Sat May 04 2024 11:22:40 GMT+0000">2024-05-04 11:22:40</span>
+            </span>
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body">
+                    
+
+                    <h1 id="在CodeSandBox上部署docker并使用Cloudflare-Tunnel打通自己的域名——以青龙面板为例"><a href="#在CodeSandBox上部署docker并使用Cloudflare-Tunnel打通自己的域名——以青龙面板为例" class="headerlink" title="在CodeSandBox上部署docker并使用Cloudflare Tunnel打通自己的域名——以青龙面板为例"></a><a href="#%E5%9C%A8CodeSandBox%E4%B8%8A%E9%83%A8%E7%BD%B2docker%E5%B9%B6%E4%BD%BF%E7%94%A8Cloudflare-Tunnel%E6%89%93%E9%80%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E2%80%94%E2%80%94%E4%BB%A5%E9%9D%92%E9%BE%99%E9%9D%A2%E6%9D%BF%E4%B8%BA%E4%BE%8B" title="在CodeSandBox上部署docker并使用Cloudflare Tunnel打通自己的域名——以青龙面板为例"></a>在<a class="link"   target="_blank" rel="noopener" href="https://codesandbox.io/" >CodeSandBox<i class="fas fa-external-link-alt"></i></a>上部署docker并使用Cloudflare Tunnel打通自己的域名——以<a class="link"   target="_blank" rel="noopener" href="https://github.com/whyour/qinglong" >青龙面板<i class="fas fa-external-link-alt"></i></a>为例</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a><a href="#%E5%89%8D%E8%A8%80" title="前言"></a>前言</h2><p>长期以来白嫖<a class="link"   target="_blank" rel="noopener" href="https://replit.com/~" >Replit<i class="fas fa-external-link-alt"></i></a>已经成为习惯，突然Replit的政策改变让人猝不及防。</p>
+<p>虽然此前就已经知道了CodeSandBox这个平台，但苦于其公开性质，以及不可更换的会直接暴露公开容器的域名分配，一直以来对CodeSandBox的使用也是离不开Replit的——在CodeSandBox部署好服务之后，在Replit部署NGINX服务反代CodeSandBox提供的域名，一定程度上避免CodeSandBox容器的暴露。</p>
+<p>那么Replit即将无法白嫖的现状下，怎么快乐的使用CodeSandBox呢？第一时间我想到的是Cloudflare的Workers。但是Workers对于免费用户来讲额度太少，就此浪费掉未免也太可惜，那怎么办呢？</p>
+<p>虽说家中的软路由一直以来都使用Cloudflared打通Tunnel进行穿透，但是还得是fscarman2的各种PaaS平台搭建代理的仓库给了我灵感，可以在PaaS平台使用Cloudflared，像家里的软路由内网穿透一样，使用自己的域名。</p>
+<p>经过我反复尝试，总算找到了在CodeSandBox上能够比较稳定搭建各种服务的办法。如果你会操作，也可以自行构筑各种镜像进行部署，只需要在 <code>docker-compose.yaml</code>文件末添加Cloudflared部分即可。</p>
+<p>这里就以青龙面板为例，讲述一下CodeSandBox的白嫖方法。</p>
+<h2 id="部署过程"><a href="#部署过程" class="headerlink" title="部署过程"></a><a href="#%E9%83%A8%E7%BD%B2%E8%BF%87%E7%A8%8B" title="部署过程"></a>部署过程</h2><h3 id="注册CodeSandBox"><a href="#注册CodeSandBox" class="headerlink" title="注册CodeSandBox"></a><a href="#%E6%B3%A8%E5%86%8CCodeSandBox" title="注册CodeSandBox"></a>注册CodeSandBox</h3><p>CodeSandBox支持Google、Github等多种方式登录，任意方式注册登录即可，这里不再赘述。</p>
+<h3 id="编写docker-compose文件"><a href="#编写docker-compose文件" class="headerlink" title="编写docker-compose文件"></a><a href="#%E7%BC%96%E5%86%99docker-compose%E6%96%87%E4%BB%B6" title="编写docker-compose文件"></a>编写docker-compose文件</h3><p>以青龙面板为例，在<a class="link"   target="_blank" rel="noopener" href="https://github.com/whyour/qinglong/blob/develop/docker/docker-compose.yml" >这里<i class="fas fa-external-link-alt"></i></a>可以找到其docker-compose文件：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'2'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">web:</span></span><br><span class="line">    <span class="comment"># alpine 基础镜像版本</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">whyour/qinglong:latest</span></span><br><span class="line">    <span class="comment"># debian-slim 基础镜像版本</span></span><br><span class="line">    <span class="comment"># image: whyour/qinglong:debian  </span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./data:/ql/data</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"0.0.0.0:5700:5700"</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="comment"># 部署路径非必须，以斜杠开头和结尾，比如 /test/</span></span><br><span class="line">      <span class="attr">QlBaseUrl:</span> <span class="string">'/'</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">unless-stopped</span></span><br></pre></td></tr></tbody></table>
+
+<p>稍作修改：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'2'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">qinglong:</span></span><br><span class="line">      <span class="attr">image:</span> <span class="string">whyour/qinglong:latest</span></span><br><span class="line">      <span class="attr">volumes:</span></span><br><span class="line">        <span class="bullet">-</span> <span class="string">/project/sandbox/ql/data:/ql/data</span></span><br><span class="line">      <span class="attr">ports:</span></span><br><span class="line">       <span class="bullet">-</span> <span class="string">"0.0.0.0:5700:5700"</span></span><br><span class="line">      <span class="attr">environment:</span></span><br><span class="line">        <span class="attr">QlBaseUrl:</span> <span class="string">'/'</span></span><br><span class="line">      <span class="attr">restart:</span> <span class="string">always</span></span><br></pre></td></tr></tbody></table>
+
+<p>主要修改了其 <code>volumes</code>的部分，因为CodeSandBox的文件目录在 <code>/project/sandbox/</code>下，所以我在此路径下创建 <code>./ql/data</code>来存储青龙面板的数据，实现数据持久化。</p>
+<p>而Cloudflared部分，我是这样写的：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">cloudflared:</span></span><br><span class="line">      <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">      <span class="attr">network_mode:</span> <span class="string">host</span></span><br><span class="line">      <span class="attr">environment:</span></span><br><span class="line">          <span class="bullet">-</span> <span class="string">TZ=Asia/Shanghai</span></span><br><span class="line">      <span class="attr">command:</span> <span class="string">tunnel</span> <span class="string">--edge-ip-version</span> <span class="string">auto</span> <span class="string">--protocol</span> <span class="string">quic</span> <span class="string">--heartbeat-interval</span> <span class="string">10s</span> <span class="string">run</span> <span class="string">--token</span> [<span class="string">ARGO_TOKEN</span>]</span><br><span class="line">      <span class="attr">container_name:</span> <span class="string">cloudflared</span></span><br><span class="line">      <span class="attr">image:</span> <span class="string">cloudflare/cloudflared:latest</span></span><br></pre></td></tr></tbody></table>
+
+<p>其中的 <code>[ARGO_TOKEN]</code>要替换成自己的token，后文将附上详细教程。</p>
+<p>所以整个 <code>docker-compose.yaml</code>的内容如下：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'2'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">qinglong:</span></span><br><span class="line">      <span class="attr">image:</span> <span class="string">whyour/qinglong:latest</span></span><br><span class="line">      <span class="attr">volumes:</span></span><br><span class="line">        <span class="bullet">-</span> <span class="string">/project/sandbox/ql/data:/ql/data</span></span><br><span class="line">      <span class="attr">ports:</span></span><br><span class="line">       <span class="bullet">-</span> <span class="string">"0.0.0.0:5700:5700"</span></span><br><span class="line">      <span class="attr">environment:</span></span><br><span class="line">        <span class="attr">QlBaseUrl:</span> <span class="string">'/'</span></span><br><span class="line">      <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">cloudflared:</span></span><br><span class="line">      <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">      <span class="attr">network_mode:</span> <span class="string">host</span></span><br><span class="line">      <span class="attr">environment:</span></span><br><span class="line">          <span class="bullet">-</span> <span class="string">TZ=Asia/Shanghai</span></span><br><span class="line">      <span class="attr">command:</span> <span class="string">tunnel</span> <span class="string">--edge-ip-version</span> <span class="string">auto</span> <span class="string">--protocol</span> <span class="string">quic</span> <span class="string">--heartbeat-interval</span> <span class="string">10s</span> <span class="string">run</span> <span class="string">--token</span> [<span class="string">ARGO_TOKEN</span>]</span><br><span class="line">      <span class="attr">container_name:</span> <span class="string">cloudflared</span></span><br><span class="line">      <span class="attr">image:</span> <span class="string">cloudflare/cloudflared:latest</span></span><br></pre></td></tr></tbody></table>
+
+<h3 id="获取-ARGO-TOKEN"><a href="#获取-ARGO-TOKEN" class="headerlink" title="获取[ARGO_TOKEN]"></a><a href="#%E8%8E%B7%E5%8F%96-ARGO-TOKEN" title="获取[ARGO_TOKEN]"></a>获取[ARGO_TOKEN]</h3><p>详见<a class="link"   target="_blank" rel="noopener" href="https://imnks.com/5984.html" >群晖套件：Cloudflare Tunnel 内网穿透中文教程 支持DSM6、7<i class="fas fa-external-link-alt"></i></a>。</p>
+<p>此处需要的[ARGO_TOKEN]就是ey开头的那一串。</p>
+<p>然后在Cloudflare中设置好相应的域名和本地端口对应，一般协议用http即可。像此处，按照我的 <code>docker-compose.yaml</code>来看，我应该映射5700端口，所以我填的是 <code>0.0.0.0:5700</code>。</p>
+<h3 id="创建Devbox"><a href="#创建Devbox" class="headerlink" title="创建Devbox"></a><a href="#%E5%88%9B%E5%BB%BADevbox" title="创建Devbox"></a>创建Devbox</h3><p>在CodeSandBox中进入dashboard，然后点击”Create a Devbox”</p>
+<p>选择docker</p>
+<p>进入Devbox之后，在左侧的文件管理EXPLORER中可以看到有 <code>.codesandbox</code>和 <code>.devcontainer</code>两个文件夹</p>
+<p>先修改 <code>.codesandbox</code>中的 <code>tasks.json</code>文件，在 <code>setupTasks</code>中添加部署命令：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">"setupTasks"</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Deploy"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"cd /project/sandbox/.devcontainer/ && docker compose up -d"</span></span><br><span class="line">    <span class="punctuation">}</span></span><br><span class="line">  <span class="punctuation">]</span><span class="punctuation">,</span></span><br></pre></td></tr></tbody></table>
+
+<p>然后在 <code>.devcontainer</code>文件夹下新建 <code>docker-compose.yaml</code>文件，把上述的 <code>docker-compose.yaml</code>内容全部复制进去。</p>
+<p>最后点击左上角的方框打开菜单，选择”Restart Devbox”，等待容器重启后，你就可以看到青龙运行好了。再试一下刚刚在Cloudflare中映射的域名，也可以用了。</p>
+<h3 id="一些问题"><a href="#一些问题" class="headerlink" title="一些问题"></a><a href="#%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98" title="一些问题"></a>一些问题</h3><p>不知道为什么，当我使用http2模式运行Cloudflared时，隧道断连后并不会重新连接，auto模式在quic模式断连后自动切换http2模式，再断连又会出现http2模式一样的问题。所以我只能指定其使用quic模式进行运行。原因未知，希望有人能找到原因。</p>
+<p>然后，必须保持容器活跃，Cloudflared掉线后才会重连，为保证其活跃，得使用网站监控器监控CodeSandBox自带的映射域名，形同 <code>https://t6a4m-8080.csb.app/</code>的那个。至于网站监控器，<a class="link"   target="_blank" rel="noopener" href="https://github.com/louislam/uptime-kuma" >Uptime-Kuma<i class="fas fa-external-link-alt"></i></a>、<a class="link"   target="_blank" rel="noopener" href="https://cron-job.org/en/" >cron-job<i class="fas fa-external-link-alt"></i></a>、<a class="link"   target="_blank" rel="noopener" href="https://uptimerobot.com/" >UptimeRobot<i class="fas fa-external-link-alt"></i></a>之类的都行。</p>
+<p>注意，有些PaaS平台（比如Glitch）已经禁止了自身服务器ip、公用网站监控器ip进行访问，所以上述的cron-job和UptimeRobot是否能行请自行测试，更加建议自己搭建Uptime-Kuma。</p>
+<h2 id="后话"><a href="#后话" class="headerlink" title="后话"></a><a href="#%E5%90%8E%E8%AF%9D" title="后话"></a>后话</h2><p>在CodeSandBox上我已经尝试使用此方法部署了<a class="link"   target="_blank" rel="noopener" href="https://github.com/alist-org/alist" >Alist<i class="fas fa-external-link-alt"></i></a>、<a class="link"   target="_blank" rel="noopener" href="https://github.com/whyour/qinglong" >qinglong<i class="fas fa-external-link-alt"></i></a>、<a class="link"   target="_blank" rel="noopener" href="https://www.halo.run/" >Halo<i class="fas fa-external-link-alt"></i></a>（本站就是）、<a class="link"   target="_blank" rel="noopener" href="https://github.com/pandora-next/deploy" >Pandora_Next<i class="fas fa-external-link-alt"></i></a>以及自己构筑的个别镜像等多个应用，尽数成功。可玩性还是很高的。</p>
+<p>但是不得不提醒，这种方法只是避免了从域名上找到自己的容器而已，并不能确保自己的数据不会泄露，毕竟使用的是公共容器，请注意信息安全，不要存储私密信息，否则后果自负。</p>
+<p>另，宣传一下QQ群：<a class="link"   target="_blank" rel="noopener" href="https://jq.qq.com/?_wv=1027&k=qssjFvAs" >受虐滑稽<i class="fas fa-external-link-alt"></i></a></p>
+<hr>
+<h2 id="一些可以在CodeSandBox上配合Cloudflared使用的docker-compose"><a href="#一些可以在CodeSandBox上配合Cloudflared使用的docker-compose" class="headerlink" title="一些可以在CodeSandBox上配合Cloudflared使用的docker-compose"></a><a href="#%E4%B8%80%E4%BA%9B%E5%8F%AF%E4%BB%A5%E5%9C%A8CodeSandBox%E4%B8%8A%E9%85%8D%E5%90%88Cloudflared%E4%BD%BF%E7%94%A8%E7%9A%84docker-compose" title="一些可以在CodeSandBox上配合Cloudflared使用的docker-compose"></a>一些可以在CodeSandBox上配合Cloudflared使用的docker-compose</h2><blockquote>
+<p><strong>以下任何一个配置，如果不需要Cloudflared打隧道，就把cloudflared部分删掉。</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>另外，除了Cloudflared打隧道，现在有新的使用自己的域名的方法，详见仓库：<a class="link"   target="_blank" rel="noopener" href="https://github.com/k0baya/reserve-vercel" >k0baya&#x2F;reserve-vercel<i class="fas fa-external-link-alt"></i></a>。</strong></p>
+<p>现在已经将Cloudflared部分从各配置中删除，如有需要请自行添加：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">version: '3.3'</span><br><span class="line">services:</span><br><span class="line">   cloudflared:</span><br><span class="line">     restart: always</span><br><span class="line">     network_mode: host</span><br><span class="line">     environment:</span><br><span class="line">         - TZ=Asia/Shanghai</span><br><span class="line">     command: tunnel --edge-ip-version auto --protocol quic --heartbeat-interval 10s run --token [ARGO_TOKEN]</span><br><span class="line">     container_name: cloudflared</span><br><span class="line">     image: cloudflare/cloudflared:latest</span><br></pre></td></tr></tbody></table>
+</blockquote>
+<h2 id="Qinglong"><a href="#Qinglong" class="headerlink" title="Qinglong"></a><a href="#Qinglong" title="Qinglong"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/whyour/qinglong" >Qinglong<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射5700端口</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'2'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">qinglong:</span></span><br><span class="line">      <span class="attr">image:</span> <span class="string">whyour/qinglong:latest</span></span><br><span class="line">      <span class="attr">volumes:</span></span><br><span class="line">        <span class="bullet">-</span> <span class="string">/project/sandbox/ql/data:/ql/data</span></span><br><span class="line">      <span class="attr">ports:</span></span><br><span class="line">       <span class="bullet">-</span> <span class="string">"0.0.0.0:5700:5700"</span></span><br><span class="line">      <span class="attr">environment:</span></span><br><span class="line">        <span class="attr">QlBaseUrl:</span> <span class="string">'/'</span></span><br><span class="line">      <span class="attr">restart:</span> <span class="string">always</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="Alist"><a href="#Alist" class="headerlink" title="Alist"></a><a href="#Alist" title="Alist"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/alist-org/alist" >Alist<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射5244端口</p>
+<p>如果需要使用Aria2实现离线下载，把第14行的 <code>image</code>指定的镜像更改为 <code>xhofe/alist-aria2:main</code>即可</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">alist:</span></span><br><span class="line">        <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">        <span class="attr">volumes:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'/project/sandbox/alist:/opt/alist/data'</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'5244:5244'</span></span><br><span class="line">        <span class="attr">environment:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">PUID=0</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">PGID=0</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">UMASK=022</span></span><br><span class="line">        <span class="attr">container_name:</span> <span class="string">alist</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">'xhofe/alist:latest'</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="Halo"><a href="#Halo" class="headerlink" title="Halo"></a><a href="#Halo" title="Halo"></a><a class="link"   target="_blank" rel="noopener" href="https://www.halo.run/" >Halo<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射8090端口</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">"3"</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">halo:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">halohub/halo:2.11</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">halo</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">on-failure:3</span></span><br><span class="line">    <span class="attr">depends_on:</span></span><br><span class="line">      <span class="attr">halodb:</span></span><br><span class="line">        <span class="attr">condition:</span> <span class="string">service_healthy</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="attr">halo_network:</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/data/halo2:/root/.halo2</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"8090:8090"</span></span><br><span class="line">    <span class="attr">healthcheck:</span></span><br><span class="line">      <span class="attr">test:</span> [<span class="string">"CMD"</span>, <span class="string">"curl"</span>, <span class="string">"-f"</span>, <span class="string">"http://localhost:8090/actuator/health/readiness"</span>]</span><br><span class="line">      <span class="attr">interval:</span> <span class="string">30s</span></span><br><span class="line">      <span class="attr">timeout:</span> <span class="string">5s</span></span><br><span class="line">      <span class="attr">retries:</span> <span class="number">5</span></span><br><span class="line">      <span class="attr">start_period:</span> <span class="string">30s</span>      </span><br><span class="line">    <span class="attr">command:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--spring.r2dbc.url=r2dbc:pool:postgresql://halodb/halo</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--spring.r2dbc.username=halo</span></span><br><span class="line">      <span class="comment"># PostgreSQL 的密码，请保证与下方 POSTGRES_PASSWORD 的变量值一致。</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--spring.r2dbc.password=12345678</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--spring.sql.init.platform=postgresql</span></span><br><span class="line">      <span class="comment"># 外部访问地址，请根据实际需要修改</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">--halo.external-url=http://localhost:8090/</span></span><br><span class="line">  </span><br><span class="line">  <span class="attr">halodb:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">postgres:15.4</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">halodb</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">on-failure:3</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="attr">halo_network:</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/data/db:/var/lib/postgresql/data</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"5432:5432"</span></span><br><span class="line">    <span class="attr">healthcheck:</span></span><br><span class="line">      <span class="attr">test:</span> [ <span class="string">"CMD"</span>, <span class="string">"pg_isready"</span> ]</span><br><span class="line">      <span class="attr">interval:</span> <span class="string">10s</span></span><br><span class="line">      <span class="attr">timeout:</span> <span class="string">5s</span></span><br><span class="line">      <span class="attr">retries:</span> <span class="number">5</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">POSTGRES_PASSWORD=12345678</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">POSTGRES_USER=halo</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">POSTGRES_DB=halo</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">PGUSER=halo</span></span><br><span class="line"></span><br><span class="line"><span class="attr">networks:</span></span><br><span class="line">  <span class="attr">halo_network:</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="Microsoft-365-E5-RenewX"><a href="#Microsoft-365-E5-RenewX" class="headerlink" title="Microsoft_365_E5_RenewX"></a><a href="#Microsoft-365-E5-RenewX" title="Microsoft_365_E5_RenewX"></a><a class="link"   target="_blank" rel="noopener" href="https://hub.docker.com/r/gladtbam/ms365_e5_renewx" >Microsoft_365_E5_RenewX<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口1066</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.5'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">renewx:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">gladtbam/ms365_e5_renewx:latest</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">renewx</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">TZ=Asia/Shanghai</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/E5RenewX/Deploy:/renewx/Deploy</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/E5RenewX/Appdata:/renewx/appdata</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"1066:1066"</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">unless-stopped</span></span><br></pre></td></tr></tbody></table>
+
+<blockquote>
+<p>需要新建 <code>Config.xml</code>文件放在 <code>Deploy</code>内，默认的 <code>Config.xml</code>文件内容如下：</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br></pre></td><td class="code"><pre><span class="line">﻿<?xml version="1.0" encoding="utf-8" ?></span><br><span class="line"><Configuration></span><br><span class="line">	<!--站点服务器基本配置--></span><br><span class="line">	<Serivce></span><br><span class="line">		<!--服务访问端口--></span><br><span class="line">		<Port>1066</Port></span><br><span class="line">		<!--管理员密码(管理员登录路由/Admin/Login) 重要：首次启动前必须更改--></span><br><span class="line">		<LoginPassword>12345678</LoginPassword></span><br><span class="line">		<!--是否启用内核多线程支持--></span><br><span class="line">		<CoreMultiThread>true</CoreMultiThread></span><br><span class="line">		<!--网站备案（选填）--></span><br><span class="line">		<ICP></span><br><span class="line">			<!--备案显示文本--></span><br><span class="line">			<Text></Text></span><br><span class="line">			<!--备案管理查询机构跳转链接--></span><br><span class="line">			<Link>https://beian.miit.gov.cn</Link></span><br><span class="line">		</ICP></span><br><span class="line">		<!--Bootstrap CDN 若要更改请务必使用bootstrap@5.1.3版本（选填）--></span><br><span class="line">		<CDN></span><br><span class="line">			<!--Bootstrap CSS文件CDN bootstrap.min.css--></span><br><span class="line">			<CSS>https://cdn.staticfile.org/bootstrap/5.1.3/css/bootstrap.min.css</CSS></span><br><span class="line">			<!--Bootstrap JS文件CDN bootstrap.bundle.min.js--></span><br><span class="line">			<JS>https://cdn.staticfile.org/bootstrap/5.1.3/js/bootstrap.bundle.min.js</JS></span><br><span class="line">		</CDN></span><br><span class="line">	</Serivce></span><br><span class="line">	<!--站点Kestrel服务器HTTPS配置 （只支持IIS证书类型 即PFX格式的证书）--></span><br><span class="line">	<HTTPS></span><br><span class="line">		<!--Kestrel是否启用HTTPS(SSL加密传输)--></span><br><span class="line">		<Enable>false</Enable></span><br><span class="line">		<!--SSL证书文件名 (需要将PFX格式的SSL证书放置于该配置文件的同级目录Deploy文件夹下) 如e5.sundayrx.net.pfx--></span><br><span class="line">		<!--不填则默认使用Dev localhost 本地证书--></span><br><span class="line">		<Certificate></Certificate></span><br><span class="line">		<!--SSL证书密钥(PFX证书的访问密钥)--></span><br><span class="line">		<Password></Password></span><br><span class="line">	</HTTPS></span><br><span class="line">	<!--共享站点配置,不共享可无视以下内容 (若要共享站点 请自备以下所需的配置信息 且配置中HTTPS必须启用)--></span><br><span class="line">	<ShareSite></span><br><span class="line">		<!--是否启用站点共享--></span><br><span class="line">		<Enable>false</Enable></span><br><span class="line">		<!--SMTP邮件发送支持--></span><br><span class="line">		<SMTP></span><br><span class="line">			<!--发件邮箱--></span><br><span class="line">			<Email></Email></span><br><span class="line">			<!--邮箱密钥--></span><br><span class="line">			<Password></Password></span><br><span class="line">			<!--SMTP服务器地址--></span><br><span class="line">			<Host></Host></span><br><span class="line">			<!--SMTP服务器端口--></span><br><span class="line">			<Port>587</Port></span><br><span class="line">			<!--SMTP服务器是否使用SSL传输--></span><br><span class="line">			<EnableSSL>true</EnableSSL></span><br><span class="line">		</SMTP></span><br><span class="line">		<!--第三方OAuth登录支持(至少启用以下一种OAuth否则其他用户无法注册)--></span><br><span class="line">		<OAuth></span><br><span class="line">			<!--微软登录授权--></span><br><span class="line">			<Microsoft></span><br><span class="line">				<!--是否启用该OAuth--></span><br><span class="line">				<Enable>true</Enable></span><br><span class="line">				<!--应用程序Id--></span><br><span class="line">				<ClientId></ClientId></span><br><span class="line">				<!--应用程序访问机密--></span><br><span class="line">				<ClientSecret></ClientSecret></span><br><span class="line">			</Microsoft></span><br><span class="line">			<!--GitHub登录授权--></span><br><span class="line">			<Github></span><br><span class="line">				<!--是否启用该OAuth--></span><br><span class="line">				<Enable>true</Enable></span><br><span class="line">				<!--应用程序Id--></span><br><span class="line">				<ClientId></ClientId></span><br><span class="line">				<!--应用程序访问机密--></span><br><span class="line">				<ClientSecret></ClientSecret></span><br><span class="line">			</Github></span><br><span class="line">		</OAuth></span><br><span class="line">		<!--站点系统设置--></span><br><span class="line">		<System></span><br><span class="line">			<!--站点启动后默认是否允许用户注册 建议为false--></span><br><span class="line">			<AllowRegister>false</AllowRegister></span><br><span class="line">			<!--站点启动后默认公告（换行符请使用 </span><br><span class="line"> 进行换行）--></span><br><span class="line">			<Notice></Notice></span><br><span class="line">			<!--站点运营者--></span><br><span class="line">			<Master></Master></span><br><span class="line">			<!--站点运营者推广链接--></span><br><span class="line">			<MasterLink></MasterLink></span><br><span class="line">			<!--站点新用户默认配额数--></span><br><span class="line">			<DefaultQuota>1</DefaultQuota></span><br><span class="line">			<!--站点自动特赦时间间隔 （单位：天 至少30天）--></span><br><span class="line">			<AutoSpecialPardonInterval>30</AutoSpecialPardonInterval></span><br><span class="line">		</System></span><br><span class="line">	</ShareSite></span><br><span class="line"></Configuration></span><br></pre></td></tr></tbody></table>
+
+<h2 id="Pandora-Next"><a href="#Pandora-Next" class="headerlink" title="Pandora-Next"></a><a href="#Pandora-Next" title="Pandora-Next"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/pandora-next/deploy" >Pandora-Next<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口8181</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">pandora-next:</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">pengzhile/pandora-next</span></span><br><span class="line">        <span class="attr">container_name:</span> <span class="string">PandoraNext</span></span><br><span class="line">        <span class="attr">network_mode:</span> <span class="string">bridge</span></span><br><span class="line">        <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">"8181:8181"</span></span><br><span class="line">        <span class="attr">volumes:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">/project/sandbox/pandora-next/data:/data</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">/project/sandbox/pandora-next/sessions:/root/.cache/PandoraNext</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="Uptime-Kuma"><a href="#Uptime-Kuma" class="headerlink" title="Uptime-Kuma"></a><a href="#Uptime-Kuma" title="Uptime-Kuma"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/louislam/uptime-kuma" >Uptime-Kuma<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口3001</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.8'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">uptime-kuma:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">louislam/uptime-kuma:1</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">uptime-kuma</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/uptimekuma:/app/data</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"3001:3001"</span>  <span class="comment"># <Host Port>:<Container Port></span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="KodBox"><a href="#KodBox" class="headerlink" title="KodBox"></a><a href="#KodBox" title="KodBox"></a><a class="link"   target="_blank" rel="noopener" href="https://kodcloud.com/" >KodBox<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口8080</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.5'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">db:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mariadb</span></span><br><span class="line">    <span class="attr">command:</span> <span class="string">--transaction-isolation=READ-COMMITTED</span> <span class="string">--binlog-format=ROW</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"/project/sandbox/db:/var/lib/mysql"</span>   </span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"TZ=Asia/Shanghai"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"MYSQL_ROOT_PASSWORD=jiehdo!25165n"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"MYSQL_DATABASE=kodbox"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"MYSQL_USER=bodbox"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"MYSQL_PASSWORD=jiehdo!25165n"</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">  </span><br><span class="line">  <span class="attr">app:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">kodcloud/kodbox</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">8080</span><span class="string">:80</span>                </span><br><span class="line">    <span class="attr">links:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">db</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">redis</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"/project/sandbox/site:/var/www/html"</span>  </span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">redis:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">redis:alpine</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"TZ=Asia/Shanghai"</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br></pre></td></tr></tbody></table>
+
+<blockquote>
+<p>如果照搬上面的设置，初始化时数据库和redis的设置应该如图填写</p>
+<p>数据库类型：MySQL<br>服务器：db<br>用户名：root<br>密码：jiehdo!25165n<br>数据库：kodbox<br>存储引擎：InnoDB<br>系统缓存类型：Redis<br>服务器：redis</p>
+</blockquote>
+<h2 id="Zfile"><a href="#Zfile" class="headerlink" title="Zfile"></a><a href="#Zfile" title="Zfile"></a><a class="link"   target="_blank" rel="noopener" href="https://zfile.vip/" >Zfile<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口8080</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">zfile:</span></span><br><span class="line">        <span class="attr">container_name:</span> <span class="string">zfile</span></span><br><span class="line">        <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'8080:8080'</span></span><br><span class="line">        <span class="attr">volumes:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'/project/sandbox/zfile/db:/root/.zfile-v4/db'</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'/project/sandbox/zfile/logs:/root/.zfile-v4/logs'</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'/project/sandbox/zfile/file:/data/file'</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">zhaojun1998/zfile</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="PanIndex"><a href="#PanIndex" class="headerlink" title="PanIndex"></a><a href="#PanIndex" title="PanIndex"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/px-org/PanIndex" >PanIndex<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口5238</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">panindex:</span></span><br><span class="line">        <span class="attr">container_name:</span> <span class="string">panindex</span></span><br><span class="line">        <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'5238:5238'</span></span><br><span class="line">        <span class="attr">volumes:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'/project/sandbox/PanIndex/data:/app/data'</span></span><br><span class="line">        <span class="attr">environment:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">"PORT=5238"</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">iicm/pan-index:latest</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="ShareList"><a href="#ShareList" class="headerlink" title="ShareList"></a><a href="#ShareList" title="ShareList"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/reruin/sharelist" >ShareList<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口33001</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">sharelist:</span></span><br><span class="line">        <span class="attr">container_name:</span> <span class="string">sharelist</span></span><br><span class="line">        <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'33001:33001'</span></span><br><span class="line">        <span class="attr">volumes:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'/project/sandbox/sharelist:/sharelist/cache'</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">reruin/sharelist:next</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="Cloudreve"><a href="#Cloudreve" class="headerlink" title="Cloudreve"></a><a href="#Cloudreve" title="Cloudreve"></a><a class="link"   target="_blank" rel="noopener" href="https://cloudreve.org/" >Cloudreve<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口5212</p>
+<p>进入容器需要先手动创建几个文件，在Terminal中输入以下指令即可：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p cloudreve && cd cloudreve \</span><br><span class="line">&& mkdir -vp cloudreve/{uploads,avatar} \</span><br><span class="line">&& touch cloudreve/conf.ini \</span><br><span class="line">&& touch cloudreve/cloudreve.db \</span><br><span class="line">&& mkdir -p aria2/config \</span><br><span class="line">&& mkdir -p data/aria2 \</span><br><span class="line">&& chmod -R 777 data/aria2</span><br></pre></td></tr></tbody></table>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">"3.8"</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">cloudreve:</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">cloudreve</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">cloudreve/cloudreve:latest</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">unless-stopped</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"5212:5212"</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/cloudreve/data:/data</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/cloudreve/cloudreve/uploads:/cloudreve/uploads</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/cloudreve/cloudreve/conf.ini:/cloudreve/conf.ini</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/cloudreve/cloudreve/cloudreve.db:/cloudreve/cloudreve.db</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/cloudreve/cloudreve/avatar:/cloudreve/avatar</span></span><br><span class="line">    <span class="attr">depends_on:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">aria2</span></span><br><span class="line">  <span class="attr">aria2:</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">aria2</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">p3terx/aria2-pro</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">unless-stopped</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">RPC_SECRET=jif1568dw87</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">RPC_PORT=6800</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/cloudreve/aria2/config:/config</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/cloudreve/data:/data</span></span><br></pre></td></tr></tbody></table>
+
+<blockquote>
+<p>Aria2的token默认为 <code>jif1568dw87</code>，如有需要自行修改</p>
+<p>初始账号和密码，请在Terminal中输入命令 <code>docker logs cloudreve</code>后在日志中查找。</p>
+</blockquote>
+<h2 id="Typecho"><a href="#Typecho" class="headerlink" title="Typecho"></a><a href="#Typecho" title="Typecho"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/typecho/typecho" >Typecho<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口8080</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.7'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">typecho:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">joyqi/typecho:nightly-php7.4-apache</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">typecho-server</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">TIMEZONE=Asia/Shanghai</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">8080</span><span class="string">:80</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/typecho:/app/usr</span></span><br><span class="line">    <span class="attr">depends_on:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">mariadb</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">mariadb:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mariadb</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">mariadb</span></span><br><span class="line">    <span class="attr">command:</span> <span class="string">--transaction-isolation=READ-COMMITTED</span> <span class="string">--binlog-format=ROW</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"/project/sandbox/db:/var/lib/mysql"</span>   </span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"TZ=Asia/Shanghai"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"MYSQL_ROOT_PASSWORD=jiehdo!25165n"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"MYSQL_DATABASE=typecho"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"MYSQL_USER=typecho"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"MYSQL_PASSWORD=jiehdo!25165n"</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br></pre></td></tr></tbody></table>
+
+<blockquote>
+<p>如果照搬此docker-compose.yaml，初始设置数据库时应该如此填写：</p>
+<p>数据库适配器：Mysql 原生函数适配器<br>数据库前缀：typecho_<br>数据库地址：mariadb<br>数据库用户名：root<br>数据库密码：jiehdo!25165n<br>数据库名：typecho</p>
+</blockquote>
+<h2 id="Baota-Panel"><a href="#Baota-Panel" class="headerlink" title="Baota_Panel"></a><a href="#Baota-Panel" title="Baota_Panel"></a><a class="link"   target="_blank" rel="noopener" href="https://hub.docker.com/r/gettionhub/baota-docker" >Baota_Panel<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>端口8888为面板，2022为SSH端口，2021为FTP端口，2080和2443为网页服务预留端口，2888是官方给的，不知道作用。</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">baota:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">gettionhub/baota-docker:ltd</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">baota</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/www/website_data:/www/wwwroot</span> </span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/www/mysql_data:/www/server/data</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/www/vhost:/www/server/panel/vhost</span> </span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"8888:8888"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"2022:22"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"2021:21"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"2443:443"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"2080:80"</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">"2888:888"</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">unless-stopped</span></span><br></pre></td></tr></tbody></table>
+
+<blockquote>
+<p>面板入口为8888端口的那个网址后面加上 <code>/baota</code>，形同 <code>https://t6a4m-8888.csb.app/baota</code>。</p>
+<p>初始用户名、密码都为baota</p>
+<p>容器内root用户的ssh密码也是baota</p>
+</blockquote>
+<h2 id="WordPress"><a href="#WordPress" class="headerlink" title="WordPress"></a><a href="#WordPress" title="WordPress"></a><a class="link"   target="_blank" rel="noopener" href="https://wordpress.org/" >WordPress<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口8080</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.1'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">wordpress:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">wordpress</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">8080</span><span class="string">:80</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">WORDPRESS_DB_HOST:</span> <span class="string">db</span></span><br><span class="line">      <span class="attr">WORDPRESS_DB_USER:</span> <span class="string">exampleuser</span></span><br><span class="line">      <span class="attr">WORDPRESS_DB_PASSWORD:</span> <span class="string">examplepass</span></span><br><span class="line">      <span class="attr">WORDPRESS_DB_NAME:</span> <span class="string">exampledb</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/wordpree/app:/var/www/html</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">db:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mysql:5.7</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">MYSQL_DATABASE:</span> <span class="string">exampledb</span></span><br><span class="line">      <span class="attr">MYSQL_USER:</span> <span class="string">exampleuser</span></span><br><span class="line">      <span class="attr">MYSQL_PASSWORD:</span> <span class="string">examplepass</span></span><br><span class="line">      <span class="attr">MYSQL_RANDOM_ROOT_PASSWORD:</span> <span class="string">'1'</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/wordpree/db:/var/lib/mysql</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="Memos"><a href="#Memos" class="headerlink" title="Memos"></a><a href="#Memos" title="Memos"></a><a class="link"   target="_blank" rel="noopener" href="https://www.usememos.com/" >Memos<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口5230</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">"3.0"</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">memos:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">neosmemo/memos:latest</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">memos</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/memos/:/var/opt/memos</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">5230</span><span class="string">:5230</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="Ghost"><a href="#Ghost" class="headerlink" title="Ghost"></a><a href="#Ghost" title="Ghost"></a><a class="link"   target="_blank" rel="noopener" href="https://ghost.org/" >Ghost<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>映射端口8080</p>
+<p>首次启动会反复重启几次等待数据库创建文件，是正常的。</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.1'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">ghost:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">ghost:4-alpine</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">8080</span><span class="string">:2368</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">database__client:</span> <span class="string">mysql</span></span><br><span class="line">      <span class="attr">database__connection__host:</span> <span class="string">db</span></span><br><span class="line">      <span class="attr">database__connection__user:</span> <span class="string">root</span></span><br><span class="line">      <span class="attr">database__connection__password:</span> <span class="string">example</span></span><br><span class="line">      <span class="attr">database__connection__database:</span> <span class="string">ghost</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">http://localhost:8080</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/ghost/app:/var/lib/ghost/content</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">db:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mysql:8.0</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">MYSQL_ROOT_PASSWORD:</span> <span class="string">example</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/project/sandbox/ghost/db:/var/lib/mysql</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="NGINX-ui"><a href="#NGINX-ui" class="headerlink" title="NGINX-ui"></a><a href="#NGINX-ui" title="NGINX-ui"></a><a class="link"   target="_blank" rel="noopener" href="https://nginxui.com/" >NGINX-ui<i class="fas fa-external-link-alt"></i></a></h2><blockquote>
+<p>面板端口为8080。网页服务端口预留为8443。</p>
+</blockquote>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">nginx-ui:</span></span><br><span class="line">        <span class="attr">stdin_open:</span> <span class="literal">true</span></span><br><span class="line">        <span class="attr">tty:</span> <span class="literal">true</span></span><br><span class="line">        <span class="attr">container_name:</span> <span class="string">nginx-ui</span></span><br><span class="line">        <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">        <span class="attr">environment:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">TZ=Asia/Shanghai</span></span><br><span class="line">        <span class="attr">volumes:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'/project/sandbox/appdata/nginx:/etc/nginx'</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'/project/sandbox/appdata/nginx-ui:/etc/nginx-ui'</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">'/project/sandbox/www:/var/www'</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="number">8080</span><span class="string">:80</span></span><br><span class="line">            <span class="bullet">-</span> <span class="number">8443</span><span class="string">:443</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">'uozi/nginx-ui:latest'</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="继续补充ing……"><a href="#继续补充ing……" class="headerlink" title="继续补充ing……"></a><a href="#%E7%BB%A7%E7%BB%AD%E8%A1%A5%E5%85%85ing%E2%80%A6%E2%80%A6" title="继续补充ing……"></a>继续补充ing……</h2><hr>
+<h2 id="在CodeSandBox中部署其他应用——以小雅为例"><a href="#在CodeSandBox中部署其他应用——以小雅为例" class="headerlink" title="在CodeSandBox中部署其他应用——以小雅为例"></a><a href="#%E5%9C%A8CodeSandBox%E4%B8%AD%E9%83%A8%E7%BD%B2%E5%85%B6%E4%BB%96%E5%BA%94%E7%94%A8%E2%80%94%E2%80%94%E4%BB%A5%E5%B0%8F%E9%9B%85%E4%B8%BA%E4%BE%8B" title="在CodeSandBox中部署其他应用——以小雅为例"></a>在CodeSandBox中部署其他应用——以<a class="link"   target="_blank" rel="noopener" href="http://alist.xiaoya.pro/" >小雅<i class="fas fa-external-link-alt"></i></a>为例</h2><h2 id="对小雅容器的一些分析"><a href="#对小雅容器的一些分析" class="headerlink" title="对小雅容器的一些分析"></a><a href="#%E5%AF%B9%E5%B0%8F%E9%9B%85%E5%AE%B9%E5%99%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E6%9E%90" title="对小雅容器的一些分析"></a>对小雅容器的一些分析</h2><p>相信部署过小雅的朋友都一直苦恼于小雅的更新频繁，以及阿里网盘更新后的容量限制，给日常观影带来了很不好的体验。随着xiaoyakeeper的诞生，才迎来了转机——自动更新容器+自动清理转存文件，解决了小雅日常使用的痛点。</p>
+<p>但是，不论是小雅本身还是xiaoyakeeper，其部署方式都是一键式的脚本，而且部署方式限制的死死的——指定了端口、挂载卷等应该容许自定义的参数，使得其难以部署在各种PaaS平台上。</p>
+<p>此前我曾有过最简单的把小雅部署在PaaS平台上的方法构思——基于小雅原镜像进行修改。直接查看<a class="link"   target="_blank" rel="noopener" href="http://docker.xiaoya.pro/update_new.sh" >小雅的一键部署脚本<i class="fas fa-external-link-alt"></i></a>不难发现，是通过提前创建 <code>/etc/xiaoya</code>路径，再把需要使用到的各项token、id等参数储存为TXT文本文件，放入 <code>/etc/xiaoya</code>后，使用 <code>volume</code>挂载进容器的 <code>/data</code>路径进行读取的。所以只要在原有镜像上进行修改，准备好自己的这些token、id后，将其全部复制到小雅镜像的&#x2F;data路径,就应当可以在不使用volume挂载的情况下直接部署一个能够正常使用的小雅容器。</p>
+<p>但是，首先这个方案比起一键脚本操作复杂太多，而且在我仔细查看了<a class="link"   target="_blank" rel="noopener" href="https://xiaoyahelper.zengge99.eu.org/aliyun_clear.sh" >xiaoyakeeper的脚本<i class="fas fa-external-link-alt"></i></a>后，我发现这样操作会使得xiaoyakeeper无法读取docker命令的 <code>-v</code>项，就需要对xiaoyakeeper的脚本进行修改了。但是xiaoyakeeper的脚本又自带自动更新功能，如果一个更新覆盖了我的修改，又不得偿失；如果删掉自动更新的功能，那么如果阿里网盘的政策出现了改变，还得重新手动修改最新的xiaoyakeeper脚本进行替换，难以做到一劳永逸。</p>
+<p>通过观察xiaoyakeeper的脚本内容，其更新小雅容器的方法并不是运行小雅的一键更新脚本，而是读取当前小雅容器的各项参数之后，重新进行 <code>docker pull</code>、<code>docker run</code>，也就是说，小雅容器被安装好之后，通过xiaoyakeeper进行更新就能完全摆脱小雅一键脚本。而且，如果小雅容器没有被启动的话，xiaoyakeeper运行之后就会直接启动小雅容器。</p>
+<h2 id="对CodeSandBox的分析"><a href="#对CodeSandBox的分析" class="headerlink" title="对CodeSandBox的分析"></a><a href="#%E5%AF%B9CodeSandBox%E7%9A%84%E5%88%86%E6%9E%90" title="对CodeSandBox的分析"></a>对CodeSandBox的分析</h2><p>摸索暂时比较少，Devbox（Docker）大概理解为一个 <code>Ubuntu</code>为底的，<code>zsh</code>为默认shell执行器的，有root权限的，预装了Docker的虚拟机。在 <code>/project/sandbox/</code>路径下的文件，即便重启也不会丢失。</p>
+<h2 id="在CodeSandBox上部署小雅、xiaoyakeeper、Cloudflared"><a href="#在CodeSandBox上部署小雅、xiaoyakeeper、Cloudflared" class="headerlink" title="在CodeSandBox上部署小雅、xiaoyakeeper、Cloudflared"></a><a href="#%E5%9C%A8CodeSandBox%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%B0%8F%E9%9B%85%E3%80%81xiaoyakeeper%E3%80%81Cloudflared" title="在CodeSandBox上部署小雅、xiaoyakeeper、Cloudflared"></a>在CodeSandBox上部署小雅、xiaoyakeeper、Cloudflared</h2><h3 id="部署小雅"><a href="#部署小雅" class="headerlink" title="部署小雅"></a><a href="#%E9%83%A8%E7%BD%B2%E5%B0%8F%E9%9B%85" title="部署小雅"></a>部署小雅</h3><p>通过上述的分析，不难得出，可以修改小雅的一键部署脚本，然后直接在CodeSandBox的Devbox的Terminal中运行部署脚本，以将小雅部署到CodeSandBox上。小雅的一键脚本功能很简答，无非就是要求你输入 <code>token</code>、<code>opentoken</code>、<code>folder_id</code>，然后把他们储存在一个路径，再 <code>Docker run</code>，把这个路径挂载进容器。基本上不需要什么修改，唯一需要修改的就是把创建文件和挂载卷的路径改成在CodeSandBox中能够永久储存的路径，操作如下：</p>
+<h4 id="下载小雅的部署脚本并替换其中的路径然后执行"><a href="#下载小雅的部署脚本并替换其中的路径然后执行" class="headerlink" title="下载小雅的部署脚本并替换其中的路径然后执行"></a><a href="#%E4%B8%8B%E8%BD%BD%E5%B0%8F%E9%9B%85%E7%9A%84%E9%83%A8%E7%BD%B2%E8%84%9A%E6%9C%AC%E5%B9%B6%E6%9B%BF%E6%8D%A2%E5%85%B6%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84%E7%84%B6%E5%90%8E%E6%89%A7%E8%A1%8C" title="下载小雅的部署脚本并替换其中的路径然后执行"></a>下载小雅的部署脚本并替换其中的路径然后执行</h4><p>在Terminal中运行以下命令：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O update.sh http://docker.xiaoya.pro/update_new.sh && sed -i 's|/etc/xiaoya|/project/sandbox/xiaoya|g' update.sh && chmod +x update.sh && bash update.sh && rm update.sh</span><br></pre></td></tr></tbody></table>
+
+<p>按照提示输入各种要求的变量即可。运行完毕后可以看到右侧弹窗窗口中对应5678端口的那个就是小雅了。</p>
+<p>注意，如果你遇到了运行后小雅路径下内没有 <code>mytoken.txt</code>、<code>myopentoken.txt</code>、<code>temp_transfer_folder_id.txt</code>，请不要一个劲重试浪费时间，自己把这三个文件建好并填入应有的内容再放入xiaoya路径下即可。小雅的配置文档中本身就有好几个文件需要手动建立并填入内容。</p>
+<h3 id="部署xiaoyakeeper"><a href="#部署xiaoyakeeper" class="headerlink" title="部署xiaoyakeeper"></a><a href="#%E9%83%A8%E7%BD%B2xiaoyakeeper" title="部署xiaoyakeeper"></a>部署xiaoyakeeper</h3><p>经我尝试，xiaoyakeeper部署在CodeSandBox上，如果使用Docker模式，会有很多问题，大概与CodeSandBox的 <code>docker.sock</code>配置有关，所以只能使用模式0：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash -c "$(curl -s https://xiaoyahelper.zengge99.eu.org/aliyun_clear.sh | tail -n +2)" -s 0 -tg</span><br></pre></td></tr></tbody></table>
+
+<p>如果需要TG推送，先把上述命令在Terminal中运行一遍，会要求接入TG推送，按照要求操作即可。接入完成后使用 <code>Ctrl+c</code>结束脚本。</p>
+<p>如果你不需要TG推送，或者已经运行了刚刚的命令接入了TG，那么就在左侧文件中新建一个名为”clear.sh”的文件，把上述命令最后的 <code>-tg</code>参数删除，粘贴进去，即为：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash -c "$(curl -s https://xiaoyahelper.zengge99.eu.org/aliyun_clear.sh | tail -n +2)" -s 0</span><br></pre></td></tr></tbody></table>
+
+<p>然后把执行这个脚本添加进容器启动时的任务中，即修改 <code>.codesandbox</code>下的 <code>tasks.json</code>中的 <code>tasks</code>部分：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">"tasks": {</span><br><span class="line">    "xiaoyakeeper": {</span><br><span class="line">      "name": "aliyun_clear",</span><br><span class="line">      "command": "bash /project/sandbox/clear.sh",</span><br><span class="line">      "runAtStart": true</span><br><span class="line">    }</span><br><span class="line">  }</span><br></pre></td></tr></tbody></table>
+
+<p>这样，当Devbox启动时，xiaoyakeeper就会启动，而xiaoyakeeper启动时就会启动小雅容器。</p>
+<h3 id="部署Cloudflared"><a href="#部署Cloudflared" class="headerlink" title="部署Cloudflared"></a><a href="#%E9%83%A8%E7%BD%B2Cloudflared" title="部署Cloudflared"></a>部署Cloudflared</h3><p>如果你就个人使用，实际上没有必要加Cloudflared了，只要 <code>.csb.app</code>的域名和容器名不泄露，就和使用Cloudflared加自己的域名也没太大区别。</p>
+<p>这里就简单偷个懒，虽然也可以直接运行Cloudflared客户端解决，但是可以用docker，而且又早都写好了 <code>docker-compose.yaml</code>，那就继续用docker-compose部署吧：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">cloudflared:</span></span><br><span class="line">      <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">      <span class="attr">network_mode:</span> <span class="string">host</span></span><br><span class="line">      <span class="attr">environment:</span></span><br><span class="line">          <span class="bullet">-</span> <span class="string">TZ=Asia/Shanghai</span></span><br><span class="line">      <span class="attr">command:</span> <span class="string">tunnel</span> <span class="string">--edge-ip-version</span> <span class="string">auto</span> <span class="string">--protocol</span> <span class="string">quic</span> <span class="string">--heartbeat-interval</span> <span class="string">10s</span> <span class="string">run</span> <span class="string">--token</span> [<span class="string">ARGO_TOKEN</span>]</span><br><span class="line">      <span class="attr">container_name:</span> <span class="string">cloudflared</span></span><br><span class="line">      <span class="attr">image:</span> <span class="string">cloudflare/cloudflared:latest</span></span><br></pre></td></tr></tbody></table>
+
+<p>docker-compose.yaml文件放在.devcontainer路径下，详细的设置请参考之前写的文章。</p>
+<p>这里依旧是修改 <code>.codesandbox</code>下的 <code>tasks.json</code>文件进行启动，加上启动xiaoyakeeper的修改，最终的的 <code>task.json</code>为：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">{</span></span><br><span class="line">  <span class="comment">// These tasks will run in order when initializing your CodeSandbox project.</span></span><br><span class="line">  <span class="attr">"setupTasks"</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Deploy"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"cd /project/sandbox/.devcontainer/ && docker compose up -d"</span></span><br><span class="line">    <span class="punctuation">}</span></span><br><span class="line">  <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// These tasks can be run from CodeSandbox. Running one will open a log in the app.</span></span><br><span class="line">  <span class="attr">"tasks"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">    <span class="attr">"xiaoyakeeper"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"aliyun_clear"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"bash /project/sandbox/clear.sh"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"runAtStart"</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">    <span class="punctuation">}</span></span><br><span class="line">  <span class="punctuation">}</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table>
+
+<p>注意，只有5678端口需要映射出来，另外两个端口是配合一些TV软件使用，这里用不上。如果你确实有需求且自己会配置，请自行研究，这里不做探讨。</p>
+<p>到这里就全部部署完成了，只需要Restart Devbox检查一下是否正常运行即可。</p>
+<p>附上<a class="link"   target="_blank" rel="noopener" href="https://github.com/cloudflare/cloudflared/releases" >Cloudflared<i class="fas fa-external-link-alt"></i></a>的可执行文件使用命令行直接建立Tunnel的命令：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./cloudflared tunnel --edge-ip-version auto --protocol quic --heartbeat-interval 10s run --token [ARGO_TOKEN]</span><br></pre></td></tr></tbody></table>
+
+<h2 id="其他应用的部署"><a href="#其他应用的部署" class="headerlink" title="其他应用的部署"></a><a href="#%E5%85%B6%E4%BB%96%E5%BA%94%E7%94%A8%E7%9A%84%E9%83%A8%E7%BD%B2" title="其他应用的部署"></a>其他应用的部署</h2><p>通过以上的捣鼓可以发现，<code>.codesandbox</code>下的 <code>tasks.json</code>文件实际上与<a class="link"   target="_blank" rel="noopener" href="https://replit.com/~" >Replit<i class="fas fa-external-link-alt"></i></a>的 <code>replit.nix</code>和 <code>.replit</code>两个文件的功能相近。</p>
+<p>在 <code>setupTasks</code>部分中你可以使用 <code>apt-get install</code>、<code>npm install</code>或者 <code>pip install</code>等命令进行软件包的安装，亦或者其他的部署指令。</p>
+<p>在 <code>tasks</code>部分你可以添加一些快捷命令，需要在启动时自动运行的，就把 <code>runAtStart</code>设置为 <code>true</code>即可。</p>
+<p>上述命令，无论是 <code>setupTasks</code>还是 <code>tasks</code>，都是在Terminal中直接运行的命令，区别是，如果 <code>setupTasks</code>没有执行完，Devbox不会启动，而 <code>tasks</code>只有在启动完成之后才能执行。</p>
+<p>那么就可以很简单的把Replit上之前部署的应用搬到CodeSandBox上了，<code>replit.nix</code>里需要的软件包，就去 <code>setupTasks</code>添加命令安装，<code>.replit</code>里定义的 <code>Run</code>的行为，添加到 <code>tasks</code>里去，并且把 <code>runAtStart</code>设置为 <code>true</code>，其他的文件照搬一下，原本使用 <code>$&#123;REPL_SLUG&#125;</code>、<code>$&#123;REPL_OWNER&#125;</code>之类的变量确定的文件路径，统一修改为 <code>/project/sandbox/</code>下的任意路径即可。</p>
+<p>当然不建议直接照搬，因为CodeSandBox配置比Replit高不少而且支持docker，这里建议能用docker的都用docker部署，源仓库不提供用docker部署的，写dockerfile构筑docker部署。实在不会用docker，再考虑这样的照搬或者直接运行的方法。</p>
+<hr>
+<h2 id="在CodeSandBox中使用Mirai-Console-Loader"><a href="#在CodeSandBox中使用Mirai-Console-Loader" class="headerlink" title="在CodeSandBox中使用Mirai-Console-Loader"></a><a href="#%E5%9C%A8CodeSandBox%E4%B8%AD%E4%BD%BF%E7%94%A8Mirai-Console-Loader" title="在CodeSandBox中使用Mirai-Console-Loader"></a>在CodeSandBox中使用<a class="link"   target="_blank" rel="noopener" href="https://github.com/iTXTech/mirai-console-loader" >Mirai-Console-Loader<i class="fas fa-external-link-alt"></i></a></h2><p>刚好发现了<a class="link"   target="_blank" rel="noopener" href="https://github.com/tsl0922/ttyd" >ttyd<i class="fas fa-external-link-alt"></i></a>和<a class="link"   target="_blank" rel="noopener" href="https://github.com/filebrowser/filebrowser" >filebrowser<i class="fas fa-external-link-alt"></i></a>两款神器，感觉使用这两个工具就可以愉快便利的在CodeSandBox上使用Mirai-Console-Loader，遂试了一下，果然可行，记录一下部署过程。</p>
+<h2 id="部署过程-1"><a href="#部署过程-1" class="headerlink" title="部署过程"></a><a href="#%E9%83%A8%E7%BD%B2%E8%BF%87%E7%A8%8B-1" title="部署过程"></a>部署过程</h2><h3 id="下载Mirai-Console-Loader"><a href="#下载Mirai-Console-Loader" class="headerlink" title="下载Mirai-Console-Loader"></a><a href="#%E4%B8%8B%E8%BD%BDMirai-Console-Loader" title="下载Mirai-Console-Loader"></a>下载Mirai-Console-Loader</h3><p>Terminal中运行一行命令解决：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O mcl.zip https://github.com/iTXTech/mirai-console-loader/releases/download/v2.1.2/mcl-2.1.2.zip && unzip -o mcl.zip && rm mcl.zip && chmod +x mcl</span><br></pre></td></tr></tbody></table>
+
+<p>如果和我一样有强迫症，看着时区不对很烦，毕竟CodeSandBox的服务器并不在UTC+8区，所以通过手动修改其启动脚本，即名为 <code>mcl</code>的那个文件，在执行jar包的命令前添加时区参数，即把最后一行改成：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$</span><span class="language-bash">JAVA_BINARY -jar -Duser.timezone=Asia/Shanghai mcl.jar $*</span></span><br></pre></td></tr></tbody></table>
+
+<h3 id="修改Devbox的启动任务"><a href="#修改Devbox的启动任务" class="headerlink" title="修改Devbox的启动任务"></a><a href="#%E4%BF%AE%E6%94%B9Devbox%E7%9A%84%E5%90%AF%E5%8A%A8%E4%BB%BB%E5%8A%A1" title="修改Devbox的启动任务"></a>修改Devbox的启动任务</h3><p>修改 <code>.codesandbox</code>路径下的 <code>tasks.json</code>文件，添加软件包的安装与所需工具的下载与运行命令，修改后的 <code>tasks.json</code>文件如下：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">{</span></span><br><span class="line">  <span class="comment">// These tasks will run in order when initializing your CodeSandbox project.</span></span><br><span class="line">  <span class="attr">"setupTasks"</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Installing java"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"apt-get update && echo | apt-get install openjdk-21-jre"</span></span><br><span class="line">    <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Downloading ttyd"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"mkdir -p /project/sandbox/ttyd && cd /project/sandbox/ttyd && wget -O ttyd https://github.com/tsl0922/ttyd/releases/download/1.7.4/ttyd.x86_64 && chmod +x ttyd"</span></span><br><span class="line">    <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Downloading filebrowser"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"mkdir -p /project/sandbox/filebrowser && cd /project/sandbox/filebrowser && wget -O filebrowser.tar.gz https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/linux-amd64-filebrowser.tar.gz && tar -xzvf filebrowser.tar.gz && chmod +x filebrowser && rm -f filebrowser.tar.gz"</span></span><br><span class="line">    <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Downloading Cloudflared"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"wget -O cloudflared https://github.com/cloudflare/cloudflared/releases/download/2023.10.0/cloudflared-linux-amd64 && chmod +x cloudflared"</span></span><br><span class="line">    <span class="punctuation">}</span></span><br><span class="line">  <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// These tasks can be run from CodeSandbox. Running one will open a log in the app.</span></span><br><span class="line">  <span class="attr">"tasks"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">    <span class="attr">"ttyd"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"ttyd"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="comment">// 在21022端口打开ttyd终端，用户名为admin，密码为password，可以自行修改。</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"./ttyd/ttyd -p 21022 -c admin:password -W zsh"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"runAtStart"</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">    <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"filebrowser"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"filebrowser"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="comment">// 在21021端口打开filebrowser，默认用户名和密码都为admin，登入后请自行在设置中修改用户名和密码，确保安全。</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"./filebrowser/filebrowser -p 21021"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"runAtStart"</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">    <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"Cloudflared"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Cloudflared"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="comment">// 运行Cloudflare Tunnels，请把最后的[ARGO_TOKEN]替换成自己的。</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"./cloudflared tunnel --edge-ip-version auto --protocol quic --heartbeat-interval 10s run --token [ARGO_TOKEN]"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"runAtStart"</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">    <span class="punctuation">}</span></span><br><span class="line">  <span class="punctuation">}</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table>
+
+<p>请不要直接复制粘贴，务必看一眼我写的批注，改成自己的信息后再复制粘贴。接着Restart Devbox，等待重启完毕即可。</p>
+<p>记得在Cloudflare面板里设置相应的端口对应，这里我使用的是21021和21022两个端口。</p>
+<p>接着打开自己映射的域名，输入自己设置的用户名和密码即可开始畅玩。</p>
+<h2 id="后话-1"><a href="#后话-1" class="headerlink" title="后话"></a><a href="#%E5%90%8E%E8%AF%9D-1" title="后话"></a>后话</h2><p>Mirai-Console-Loader是目前最为成熟的QQ机器人使用方法之一了，其插件生态之完善带来了很高的可玩性，不论是之前部署的ChatGPT机器人、New Bing机器人，在Mirai-Console-Loader中基本都有相应的插件实现。也是得益于CodeSandBox比起Replit更为强大的机能，才使得Mirai-Console-Loader能够在平台上流畅的运行。</p>
+<p>关于Mirai-Console-Loader的使用方法、插件安装、登录问题等，其官方文档和论坛也已经记录的非常详细了，这里不多作讨论，只说这一点：</p>
+<p>我大概尝试发现的可行的登录方法就是在本地电脑也安装一个Mirai-Console-Loader，通过手表协议扫码登录之后能够获得一个登录记录的文件夹，把整个文件夹上传到CodeSandBox上的相应位置即可。原理和<a class="link"   target="_blank" rel="noopener" href="https://github.com/Mrs4s/go-cqhttp" >go-cqhttp<i class="fas fa-external-link-alt"></i></a>通过上传 <code>session.token</code>文件进行登录是类似的。</p>
+<p>讨论群：<a class="link"   target="_blank" rel="noopener" href="https://jq.qq.com/?_wv=1027&k=qssjFvAs" >738386033<i class="fas fa-external-link-alt"></i></a></p>
+<hr>
+<h2 id="在CodeSandBox上搭建代理服务器"><a href="#在CodeSandBox上搭建代理服务器" class="headerlink" title="在CodeSandBox上搭建代理服务器"></a><a href="#%E5%9C%A8CodeSandBox%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8" title="在CodeSandBox上搭建代理服务器"></a>在CodeSandBox上搭建代理服务器</h2><p>使用的是<a class="link"   target="_blank" rel="noopener" href="https://github.com/3Kmfi6HP/nodejs-proxy" >3Kmfi6HP&#x2F;nodejs-proxy<i class="fas fa-external-link-alt"></i></a>这个仓库。</p>
+<h2 id="部署方法"><a href="#部署方法" class="headerlink" title="部署方法"></a><a href="#%E9%83%A8%E7%BD%B2%E6%96%B9%E6%B3%95" title="部署方法"></a>部署方法</h2><p>新建Node.js为Template的Devbox，然后使用以下 <code>tasks.json</code>的内容覆盖原本的 <code>tasks.json</code>：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">{</span></span><br><span class="line">  <span class="comment">// These tasks will run in order when initializing your CodeSandbox project.</span></span><br><span class="line">  <span class="attr">"setupTasks"</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Install Dependencies"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"npm i -g @3kmfi6hp/nodejs-proxy"</span></span><br><span class="line">    <span class="punctuation">}</span></span><br><span class="line">  <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">  <span class="comment">// These tasks can be run from CodeSandbox. Running one will open a log in the app.</span></span><br><span class="line">  <span class="attr">"tasks"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">    <span class="attr">"dev"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Start Dev Server"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"npx @3kmfi6hp/nodejs-proxy"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"runAtStart"</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"preview"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">        <span class="attr">"port"</span><span class="punctuation">:</span> <span class="number">7860</span></span><br><span class="line">      <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"restartOn"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">        <span class="attr">"files"</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">"./package-lock.json"</span><span class="punctuation">]</span></span><br><span class="line">      <span class="punctuation">}</span></span><br><span class="line">    <span class="punctuation">}</span></span><br><span class="line">  <span class="punctuation">}</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table>
+
+<p>然后Restart Devbox，等待网页弹出即可。</p>
+<h2 id="使用注意"><a href="#使用注意" class="headerlink" title="使用注意"></a><a href="#%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F" title="使用注意"></a>使用注意</h2><p>有个Bug，实际端口应该是443而不是80，所以要在导出的代理配置中把服务端口从80改为443才能正常连接，不然连不上。</p>
+<hr>
+<h2 id="在CodeSandBox上模拟健康码"><a href="#在CodeSandBox上模拟健康码" class="headerlink" title="在CodeSandBox上模拟健康码"></a><a href="#%E5%9C%A8CodeSandBox%E4%B8%8A%E6%A8%A1%E6%8B%9F%E5%81%A5%E5%BA%B7%E7%A0%81" title="在CodeSandBox上模拟健康码"></a>在CodeSandBox上模拟健康码</h2><p>仓库是<a class="link"   target="_blank" rel="noopener" href="https://codeberg.org/ilovexjp/health-code-simulator" >health-code-simulator<i class="fas fa-external-link-alt"></i></a>。</p>
+<p>听说健康码要回来了，咱提前做好准备，有备无患。</p>
+<h2 id="部署流程"><a href="#部署流程" class="headerlink" title="部署流程"></a><a href="#%E9%83%A8%E7%BD%B2%E6%B5%81%E7%A8%8B" title="部署流程"></a>部署流程</h2><h3 id="下载源码"><a href="#下载源码" class="headerlink" title="下载源码"></a><a href="#%E4%B8%8B%E8%BD%BD%E6%BA%90%E7%A0%81" title="下载源码"></a>下载源码</h3><p>新建Template为Node.js的Devbox。在Terminal中输入以下命令把源码下载到Devbox中：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O repo.zip https://codeberg.org/mito/health-code-simulator/archive/main.zip && unzip repo.zip && rm repo.zip && mv -b health-code-simulator/* ./ && mv -b health-code-simulator/.[^.]* ./ && rm -rf *~ && rm -rf health-code-simulator</span><br></pre></td></tr></tbody></table>
+
+<h3 id="修改启动任务"><a href="#修改启动任务" class="headerlink" title="修改启动任务"></a><a href="#%E4%BF%AE%E6%94%B9%E5%90%AF%E5%8A%A8%E4%BB%BB%E5%8A%A1" title="修改启动任务"></a>修改启动任务</h3><p>修改.codesandbox路径下的tasks.json文件，加入依赖安装和启动的任务：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">{</span></span><br><span class="line">  <span class="comment">// These tasks will run in order when initializing your CodeSandbox project.</span></span><br><span class="line">  <span class="attr">"setupTasks"</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Install Dependencies"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"npm install"</span></span><br><span class="line">    <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Building"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"npm build"</span></span><br><span class="line">    <span class="punctuation">}</span></span><br><span class="line">  <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// These tasks can be run from CodeSandbox. Running one will open a log in the app.</span></span><br><span class="line">  <span class="attr">"tasks"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">    <span class="attr">"start"</span><span class="punctuation">:</span> <span class="punctuation">{</span></span><br><span class="line">      <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"start"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"command"</span><span class="punctuation">:</span> <span class="string">"node build.mjs --serve"</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">"runAtStart"</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">    <span class="punctuation">}</span></span><br><span class="line">  <span class="punctuation">}</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table>
+
+<p>接着Restart Devbox即可。</p>
+<hr>
+<h2 id="在一个容器内同时运行PandoraNext和TokensTool"><a href="#在一个容器内同时运行PandoraNext和TokensTool" class="headerlink" title="在一个容器内同时运行PandoraNext和TokensTool"></a><a href="#%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%AE%B9%E5%99%A8%E5%86%85%E5%90%8C%E6%97%B6%E8%BF%90%E8%A1%8CPandoraNext%E5%92%8CTokensTool" title="在一个容器内同时运行PandoraNext和TokensTool"></a>在一个容器内同时运行PandoraNext和TokensTool</h2><p>在ChatGPT的辅助下，我写了一个Dockerfile，用以构筑PandoraNext和TokensTool二合一的镜像。</p>
+<p>该Dockerfile在构筑时会自动从PandoraNext和TokensTool的release中检测最新且符合当前系统架构的版本进行下载，省去了很多麻烦。</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">FROM</span> debian:<span class="number">11.8</span>-slim</span><br><span class="line"></span><br><span class="line"><span class="keyword">WORKDIR</span><span class="language-bash"> /app</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装所需的工具</span></span><br><span class="line"><span class="keyword">RUN</span><span class="language-bash"> apt-get update && apt-get install -y openjdk-11-jdk curl jq && <span class="built_in">rm</span> -rf /var/lib/apt/lists/*</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 下载 PandoraNext 的最新版本</span></span><br><span class="line"><span class="keyword">FROM</span> debian:<span class="number">11.8</span>-slim</span><br><span class="line"></span><br><span class="line"><span class="keyword">WORKDIR</span><span class="language-bash"> /app</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装所需的工具</span></span><br><span class="line"><span class="keyword">RUN</span><span class="language-bash"> apt-get update && apt-get install -y openjdk-11-jdk curl jq wget && <span class="built_in">rm</span> -rf /var/lib/apt/lists/*</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 下载 PandoraNext 的最新版本</span></span><br><span class="line"><span class="keyword">RUN</span><span class="language-bash"> ARCH=$(dpkg --print-architecture) && \</span></span><br><span class="line"><span class="language-bash">    VERSION=$(curl -s https://api.github.com/repos/pandora-next/deploy/releases/latest | jq -r <span class="string">".tag_name"</span>) && \</span></span><br><span class="line"><span class="language-bash">    DOWNLOAD_URL=$(curl -s https://api.github.com/repos/pandora-next/deploy/releases/latest | jq -r <span class="string">".assets[] | select(.name | contains(\"linux-<span class="variable">${ARCH}</span>\")) | .browser_download_url"</span>) && \</span></span><br><span class="line"><span class="language-bash">    curl -sL <span class="variable">${DOWNLOAD_URL}</span> -o pandoranext.tar.gz && \</span></span><br><span class="line"><span class="language-bash">    tar -xzf pandoranext.tar.gz --strip-components=1 && \</span></span><br><span class="line"><span class="language-bash">    <span class="built_in">chmod</span> +x /app/PandoraNext && \</span></span><br><span class="line"><span class="language-bash">    <span class="built_in">rm</span> pandoranext.tar.gz tokens.json config.json</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 下载 PandoraNext-TokensTool 的最新版本</span></span><br><span class="line"><span class="keyword">RUN</span><span class="language-bash"> JAR_URL=$(curl -s https://api.github.com/repos/Yanyutin753/PandoraNext-TokensTool/contents/simplyDeploy?ref=main | \</span></span><br><span class="line"><span class="language-bash">    jq -r <span class="string">".[] | select(.name | endswith(\".jar\")) | .download_url"</span>); \</span></span><br><span class="line"><span class="language-bash">    <span class="built_in">echo</span> <span class="string">"Download URL: <span class="variable">$JAR_URL</span>"</span>; \</span></span><br><span class="line"><span class="language-bash">    wget -O tokenstool.jar <span class="string">"<span class="variable">$JAR_URL</span>"</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建一个脚本来同时运行 PandoraNext 和 tokenstool.jar，并处理配置文件</span></span><br><span class="line"><span class="keyword">RUN</span><span class="language-bash"> <span class="built_in">echo</span> <span class="string">'#!/bin/sh\nln -sf /data/config.json /app/config.json\nln -sf /data/tokens.json /app/tokens.json\njava -jar tokenstool.jar --server.port=8081 --deployWay=releases --deployPosition=/app --hotReload=true --pandora_Ip=127.0.0.1 &\nsleep 10\n./PandoraNext'</span> > start.sh && \</span></span><br><span class="line"><span class="language-bash">    <span class="built_in">chmod</span> +x start.sh</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">EXPOSE</span> <span class="number">8081</span> <span class="number">8181</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">ENTRYPOINT</span><span class="language-bash"> [<span class="string">"/app/start.sh"</span>]</span></span><br></pre></td></tr></tbody></table>
+
+<h2 id="使用方法——以CodeSandBox为例"><a href="#使用方法——以CodeSandBox为例" class="headerlink" title="使用方法——以CodeSandBox为例"></a><a href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E2%80%94%E2%80%94%E4%BB%A5CodeSandBox%E4%B8%BA%E4%BE%8B" title="使用方法——以CodeSandBox为例"></a>使用方法——以CodeSandBox为例</h2><h3 id="构筑镜像"><a href="#构筑镜像" class="headerlink" title="构筑镜像"></a><a href="#%E6%9E%84%E7%AD%91%E9%95%9C%E5%83%8F" title="构筑镜像"></a>构筑镜像</h3><p>在DevBox中新建一个Dockerfile，并且把上述内容粘贴进去。接着在Terminal中输入命令：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker build -t pandoranext:latest .</span><br></pre></td></tr></tbody></table>
+
+<h3 id="运行容器"><a href="#运行容器" class="headerlink" title="运行容器"></a><a href="#%E8%BF%90%E8%A1%8C%E5%AE%B9%E5%99%A8" title="运行容器"></a>运行容器</h3><p>准备好已经填好的 <code>config.json</code>和 <code>tokens.json</code>（<code>TokensTool.json</code>可以先不修改，之后在<em>TokensTool</em>提供的页面内进行操作也可以。），新建一个名为 <code>pandora</code>的文件，将这两个文件放入其中。</p>
+<p>接着新建 <code>docker-compose.yaml</code>文件，并填入以下内容：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">pandora-next:</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">pandoranext:latest</span></span><br><span class="line">        <span class="attr">container_name:</span> <span class="string">PandoraNext</span></span><br><span class="line">        <span class="attr">network_mode:</span> <span class="string">bridge</span></span><br><span class="line">        <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">"8181:8181"</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">"8081:8081"</span></span><br><span class="line">        <span class="attr">volumes:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">/project/sandbox/pandora:/data</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">/project/sandbox/sessions:/root/.cache/PandoraNext</span></span><br></pre></td></tr></tbody></table>
+
+<p>再去Terminal中执行命令：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker compose up -d</span><br></pre></td></tr></tbody></table>
+
+<p>容器即可完成启动。</p>
+<h3 id="使用我构筑的镜像"><a href="#使用我构筑的镜像" class="headerlink" title="使用我构筑的镜像"></a><a href="#%E4%BD%BF%E7%94%A8%E6%88%91%E6%9E%84%E7%AD%91%E7%9A%84%E9%95%9C%E5%83%8F" title="使用我构筑的镜像"></a>使用我构筑的镜像</h3><p>如果你嫌麻烦，也可以直接使用我构筑的镜像，省去自己构筑的时间。同理，新建pandora文件夹后放入已经填好的 <code>config.json</code>和 <code>tokens.json</code>文件，然后把 <code>docker-compose.yaml</code>的内容改成如下内容：</p>
+<table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3.3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">    <span class="attr">pandora-next:</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">saika2077/pandoranext:latest</span></span><br><span class="line">        <span class="attr">container_name:</span> <span class="string">PandoraNext</span></span><br><span class="line">        <span class="attr">network_mode:</span> <span class="string">bridge</span></span><br><span class="line">        <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">"8181:8181"</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">"8081:8081"</span></span><br><span class="line">        <span class="attr">volumes:</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">/project/sandbox/pandora:/data</span></span><br><span class="line">            <span class="bullet">-</span> <span class="string">/project/sandbox/sessions:/root/.cache/PandoraNext</span></span><br></pre></td></tr></tbody></table>
+
+<p>然后直接 <code>docker compose up -d</code>即可。我构筑的镜像截止到这篇博客成文为止，<em>PandoraNext</em>的版本号为 <code>0.5.2</code>，<em>TokensTool</em>的版本号为 <code>0.4.8.2</code>。</p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a><a href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" title="注意事项"></a>注意事项</h2><p>该容器的使用注意事项与上一篇博客是完全一样的，只是更新方式发生了改变。如果你是自己构筑的方式使用的，<code>docker compose down</code>然后执行 <code>docker build --no-cache -t pandoranext:latest .</code>再 <code>docker compose up -d</code>即可。如果你使用的是我构筑的镜像，在我的镜像更新后，你只需要 <code>docker compose down &amp;&amp; docker compose pull &amp;&amp; docker compose up -d</code>即可完成升级。</p>
+
+                </div>
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                        
+                            <div class="next-post">
+                                <a class="next"
+                                   rel="next"
+                                   href="/2024/05/05/hello-world/"
+                                   title="Hello World"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">Hello World</span>
+                                        <span class="post-nav-item">Next posts</span>
+                                    </span>
+                                    <span class="right arrow-icon flex-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="border-box website-info-box default">
+        
+            <div class="copyright-info info-item default">
+                &copy;&nbsp;<span>2020</span>&nbsp;-&nbsp;2024
+                
+                    &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">时沙</a>
+                
+            </div>
+
+            <div class="theme-info info-item default">
+                Powered by&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;&&nbsp;Theme&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+            </div>
+
+            
+
+            
+        
+
+        <div class="count-item info-item default">
+            
+
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+
+        <!-- PC go comment -->
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-toggle-theme-mode flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+
+    <!-- tablet toc -->
+    
+</main>
+
+
+
+<!-- common -->
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/js/toggle-theme.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/js/code-block.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/js/libs/anime.min.js"></script>
+
+<!-- local-search -->
+
+
+<!-- lazyload -->
+
+
+<div class="">
+    
+        <!-- post-helper -->
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.1.1/source/js/post/post-helper.js"></script>
+
+        <!-- toc -->
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+
+
+</body>
+</html>
